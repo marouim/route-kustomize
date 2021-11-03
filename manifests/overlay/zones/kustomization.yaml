@@ -5,12 +5,12 @@ bases:
    - ../../base
 
 patches:
-  - path: patch-zone-low.yaml
+  - path: https://raw.githubusercontent.com/marouim/route-kustomize/master/manifests/overlay/zones/patch-zone-low.yaml
     target:
       labelSelector: zone=low
       kind: Route
 
-  - path: patch-zone-medium.yaml
+  - path: https://raw.githubusercontent.com/marouim/route-kustomize/master/manifests/overlay/zones/patch-zone-medium.yaml
     target:
       labelSelector: zone=medium
       kind: Route
