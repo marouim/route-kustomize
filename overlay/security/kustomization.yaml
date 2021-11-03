@@ -10,6 +10,7 @@ patches:
   - path: patch-low-security.json
     target:
       labelSelector: "zone=low"
+      kind: Route
   - path: patch-med-security.json
     target:
       labelSelector: "zone=med"
