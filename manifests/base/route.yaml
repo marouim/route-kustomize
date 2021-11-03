@@ -7,7 +7,6 @@ metadata:
   labels:
     zone: low
 spec:
-  host: app-route-kustomize.apps.rhcasalab.sandbox1385.opentlc.com
   to:
     kind: Service
     name: app
