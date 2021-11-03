@@ -3,7 +3,7 @@ apiVersion: route.openshift.io/v1
 metadata:
   annotations:
     openshift.io/host.generated: "true"
-  name: app 
+  name: app_a
   labels:
     zone: low
 spec:

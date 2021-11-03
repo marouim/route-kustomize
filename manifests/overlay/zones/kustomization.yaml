@@ -9,3 +9,8 @@ patches:
     target:
       labelSelector: zone=low
       kind: Route
+
+  - path: patch-zone-medium.yaml
+    target:
+      labelSelector: zone=medium
+      kind: Route
