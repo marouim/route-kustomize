@@ -1,0 +1,15 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: app
+spec:
+  host: app-route-kustomize.apps.rhcasalab.sandbox1385.opentlc.com
+  to:
+    kind: Service
+    name: app
+    weight: 100
+  port:
+    targetPort: 8080
+  tls:
+    termination: edge
+  wildcardPolicy: None
