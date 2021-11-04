@@ -7,15 +7,15 @@ bases:
 patches:
   - path: https://raw.githubusercontent.com/marouim/route-kustomize-zones/master/manifests/zones/zone_a.yaml
     target:
-      labelSelector: zone=zone_a
+      labelSelector: zone=zonea
       kind: Route
 
   - path: https://raw.githubusercontent.com/marouim/route-kustomize-zones/master/manifests/zones/zone_b.yaml
     target:
-      labelSelector: zone=zone_b
+      labelSelector: zone=zoneb
       kind: Route
 
   - path: https://raw.githubusercontent.com/marouim/route-kustomize-zones/master/manifests/zones/zone_c.yaml
     target:
-      labelSelector: zone=zone_c
+      labelSelector: zone=zonec
       kind: Route

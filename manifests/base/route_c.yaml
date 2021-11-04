@@ -3,9 +3,9 @@ apiVersion: route.openshift.io/v1
 metadata:
   annotations:
     openshift.io/host.generated: "true"
-  name: app_c
+  name: appc
   labels:
-    zone: zone_c
+    zone: zonec
 spec:
   to:
     kind: Service
