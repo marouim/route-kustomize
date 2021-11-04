@@ -6,5 +6,7 @@ resources:
   - route_a.yaml
   - route_b.yaml
   - route_c.yaml
-  - service.yaml
+  - svc_a.yaml
+  - svc_b.yaml
+  - svc_c.yaml
   - deployment.yaml
