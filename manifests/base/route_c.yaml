@@ -9,7 +9,7 @@ metadata:
 spec:
   to:
     kind: Service
-    name: app
+    name: appc
     weight: 100
   port:
     targetPort: 8080
