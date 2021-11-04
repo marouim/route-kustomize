@@ -5,7 +5,7 @@ metadata:
     openshift.io/host.generated: "true"
   name: app_a
   labels:
-    zone: low
+    zone: zone_a
 spec:
   to:
     kind: Service

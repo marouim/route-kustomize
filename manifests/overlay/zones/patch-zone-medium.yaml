@@ -1,6 +1,0 @@
-kind: Route
-apiVersion: route.openshift.io/v1
-metadata:
-  name: not-important
-  annotations:
-    haproxy.router.openshift.io/ip_whitelist: "2.2.2.2/32"
