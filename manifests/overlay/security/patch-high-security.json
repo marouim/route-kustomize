@@ -1,3 +1,0 @@
-[
-  {"op": "add", "path": "/metadata/annotations/haproxy.router.openshift.io~1ip_whitelist", "value": "192.0.0.1"}
-]
